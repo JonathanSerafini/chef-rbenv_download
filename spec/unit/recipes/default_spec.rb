@@ -1,12 +1,12 @@
 #
-# Cookbook Name:: rbenv_download
+# Cookbook Name:: ruby_rbenv_download
 # Spec:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'rbenv_download::default' do
+describe 'ruby_rbenv_download::default' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'rbenv_download::default' do
+describe 'ruby_rbenv_download::default' do
   # Serverspec examples can be found at
   # http://serverspec.org/resource_types.html
   it 'does something' do

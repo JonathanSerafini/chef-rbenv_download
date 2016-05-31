@@ -1,5 +1,6 @@
-#
-# Cookbook Name:: rbenv_download
-# Recipe:: default
-#
-# Copyright (c) 2016 The Authors, All Rights Reserved.
+package 'curl'
+
+ruby_rbenv_plugin 'rbenv-download' do
+  git_url node['ruby_rbenv_download']['git_url']
+  git_ref node['ruby_rbenv_download']['git_ref']
+end

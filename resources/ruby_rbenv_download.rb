@@ -1,4 +1,4 @@
-resource_name :rbenv_download
+resource_name :ruby_rbenv_download
 
 property :rbenv_version,
   kind_of: String,

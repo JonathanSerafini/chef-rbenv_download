@@ -1,8 +1,8 @@
-# rbenv_download cookbook
+# ruby_rbenv_download cookbook
 
 ## Description
 
-A cookbook providing the `rbenv_download` LWRP which provides the `ruby_rbenv` cookbook the ability to install pre-compiled ruby binaries from the RVM repositories.
+A cookbook providing the `ruby_rbenv_download` LWRP which provides the `ruby_rbenv` cookbook the ability to install pre-compiled ruby binaries from the RVM repositories.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ This cookbook requires Chef 12.5+.
 
 ## Resources and Providers
 
-### rbenv_download
+### ruby_rbenv_download
 
 This resource downloads a pre-compiled ruby binary and optionally sets it as the global ruby.
 
